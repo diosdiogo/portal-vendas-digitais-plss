@@ -1,0 +1,25 @@
+.page-header {
+    background-color: var(--color-header);
+    width: 100%;
+    height: 60px;
+    padding: 15px
+}
+
+.page-header .top-bar-container {
+    
+}
+
+.page-header .top-bar-container a {
+    margin: 0 auto;
+}
+
+.img-container {
+    position: absolute;
+    top: 24;
+    left: 40;
+}
+
+.img-container img{
+    width: 35px;
+    margin-left: 40px;
+}

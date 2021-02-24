@@ -1,0 +1,32 @@
+#content-page.typology-page .box-shadow {
+    flex-direction: row;
+}
+
+.typology-page .buttons-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.0rem auto 0rem;
+}
+
+.typology-page .buttons-block + .buttons-block {
+    margin: 0rem
+}
+
+.typology-page .buttons-block a {
+    width: 18.2rem;
+    margin: 1.6rem 0;
+}
+
+.typology-page .buttons-sm-block {
+    display: inline-block;
+    margin: 5rem auto 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 700px) {
+    .typology-page .buttons-block + .buttons-block {
+        margin: 1.0rem 7.5rem 0rem;
+    }    
+}

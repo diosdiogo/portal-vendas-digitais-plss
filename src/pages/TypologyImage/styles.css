@@ -1,0 +1,17 @@
+.typology-img-page .box-shadow figure .iiz__img {
+    height: 25rem;
+}
+
+.typology-img-page .box-shadow figure {
+    margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+    .typology-img-page .box-shadow {
+        max-width: 53.5rem;
+    }
+
+    .typology-img-page .box-shadow figure .iiz__img {
+        height: 40rem;
+    }
+}

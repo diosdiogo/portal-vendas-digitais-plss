@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8d8d8d;
+        opacity: 0.419;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_63" data-name="Grupo 63" transform="translate(-284 -250)">
+    <g id="Grupo_62" data-name="Grupo 62">
+      <circle id="Elipse_107" data-name="Elipse 107" class="cls-1" cx="13" cy="13" r="13" transform="translate(284 250)"/>
+      <line id="Linha_32" data-name="Linha 32" class="cls-2" x2="16.93" transform="translate(291.004 257.004) rotate(45)"/>
+      <line id="Linha_33" data-name="Linha 33" class="cls-2" x2="16.93" transform="translate(302.975 257.004) rotate(135)"/>
+    </g>
+  </g>
+</svg>

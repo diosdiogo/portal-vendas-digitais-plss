@@ -1,0 +1,15 @@
+#slogan-bg {
+    margin: 0 auto;
+    font: 600 3.0rem Roboto;
+    line-height: 3.5rem;
+    margin-top: 10rem;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+@media (min-width: 700px) {
+    #slogan-bg {
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }
+}

@@ -1,0 +1,10 @@
+.landing-page .buttons-block {
+    margin: 6rem auto;
+}
+
+.landing-page-campain p {
+    width: 24rem;
+    margin: 0rem auto 0;
+    font: 400 1.7rem Roboto;
+    text-align: left;
+}

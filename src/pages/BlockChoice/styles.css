@@ -1,0 +1,14 @@
+
+.landscape-view img {
+    width: 30.2rem;
+    height: 47.0rem;
+    margin: 0 auto;
+    border-radius: 1.3rem;
+}
+
+@media (min-width: 700px) {
+    .landscape-view img {
+        width: 35.9rem;
+        height: 55.8rem;
+    }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.091" height="80.476" viewBox="0 0 27.091 80.476">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #07acd3;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 12px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_90" data-name="Grupo 90" transform="translate(0.501 -76.5)">
+    <g id="Grupo_89" data-name="Grupo 89">
+      <path id="Retângulo_175" data-name="Retângulo 175" class="cls-1" d="M5,0H75.476a5,5,0,0,1,5,5V27.091a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(26.59 76.5) rotate(90)"/>
+      <text id="Feedback" class="cls-2" transform="translate(16 118) rotate(-90)"><tspan x="-26.021" y="0">Feedback</tspan></text>
+    </g>
+  </g>
+</svg>

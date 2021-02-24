@@ -1,0 +1,188 @@
+#content-page.simulations-page .slogan {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    margin: 7.2rem auto 0;
+    max-width: 25rem;
+}
+
+#content-page.simulations-page .simulations-page-textarea {
+    display: block;
+    margin: 3.0rem 1.0rem 0;
+    padding-bottom: 3rem;
+}
+
+#content-page.simulations-page .simulations-page-textarea textarea {
+    width: 100%;
+    height: 10rem;
+    border-radius: 2.5rem;
+    background: var(--color-input-background);
+    border: 1px solid var(--color-line-in-white);
+    padding: 1rem 1.6rem;
+    font: 1.6rem Roboto;
+    resize: none;
+}
+
+#content-page.simulations-page .simulations-page-textarea textarea::placeholder {
+    opacity: 35%;
+}
+
+#content-page.simulations-page .simulations-page-textarea textarea:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.simulations-page-textarea p {
+    width: 22rem;
+    margin: 0 auto;
+}
+
+#content-page.simulations-page .simulations-page-text {
+    font: 700 1.6rem Roboto;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 3.5rem 0 1.4rem;
+}
+
+#content-page.simulations-page .bank-financing-warning {
+    font: 700 1.4rem Roboto;
+    padding-top: 1rem;
+    width: 27rem;
+    margin: 0 auto;
+}
+
+#content-page.simulations-page .simulations-page-box-title {
+    font: 700 2.0rem Roboto;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 1.5rem 0 2.0rem 0;
+}
+
+#content-page.simulations-page .currency-text {
+    font: italic 20px Roboto;
+    line-height: 2rem;
+    display: inline;
+    
+}
+
+#content-page.simulations-page .currency-text p {
+    display: inline;
+}
+
+#content-page.simulations-page .currency-text::before {
+   font: 20px Roboto, thin;
+    font-size: 20px;
+    letter-spacing: 0px;
+    content: "R$";
+    display: inline;
+}
+
+#content-page.simulations-page .MuiFormControl-root {
+    display: flex;
+}
+
+#content-page.simulations-page .MuiFormGroup-row {
+    display: inline;
+}
+
+#content-page.simulations-page .MuiSvgIcon-root {
+    font-size: 5.0rem;
+}
+
+#content-page.simulations-page .MuiFormControlLabel-label {
+    font: 400 1.6rem Roboto;
+}
+
+#content-page.simulations-page .sim {
+    margin-right: 2.2rem;
+}
+
+#content-page.simulations-page .nao {
+    margin-left: 2.2rem;
+}
+
+#content-page.simulations-page .MuiIconButton-root {
+    padding: 0.9rem 0.5rem 0.9rem 0.5rem;
+}
+
+#content-page.simulations-page .MuiRadio-colorPrimary {
+    color: var(--color-primary);
+}
+
+#content-page.simulations-page .box-shadow {
+    padding-bottom: 3.5rem;
+}
+
+#content-page.simulations-page .buttons-sm-block button {
+    width: 15rem;
+    height: 4.1rem;
+    cursor: pointer;   
+    margin: 0 auto;
+}
+
+#content-page.simulations-page .buttons-sm-block button:focus { 
+    outline: -webkit-focus-ring-color auto 0px;  
+}
+
+#content-page.simulations-page hr {
+    max-width: 28.1rem;
+    margin: 1.85rem auto;
+}
+
+#content-page.simulations-page .error {
+    margin: 1.5rem auto;
+}
+
+@media (min-width: 700px) {
+    #content-page.simulations-page .slogan {
+        line-height: 3.0rem;
+        margin: 9.6rem auto 0;
+        max-width: 35rem;
+    }
+
+    #content-page.simulations-page .box-shadow{
+        max-width: 81.2rem;
+    }
+
+    #content-page.simulations-page .MuiSlider-root {
+        width: 100%;
+        max-width: 76.4rem;
+    }
+
+    #content-page.simulations-page .simulations-page-text {
+        padding: 3.5rem 0 2.0rem 0;
+    }
+
+    #content-page.simulations-page .box-shadow .simulations-page-text {
+        margin: 3.5rem auto 0rem;
+        padding: 0;
+    }
+
+    #content-page.simulations-page .currency-text {
+        margin: 1.4rem auto 1rem;
+    }
+
+    #content-page.simulations-page .bank-financing-warning {
+        font: 700 1.4rem Roboto;
+        padding-top: 1rem;
+        width: 27rem;
+        margin: 0 auto;
+    }
+
+    #content-page.simulations-page .simulations-page-textarea {
+        max-width: 78.0rem;
+        margin: 3.0rem auto 0rem;
+    }
+
+    #content-page.simulations-page .simulations-page-textarea textarea {
+        font: 1.9rem Roboto;
+    }
+
+    #content-page.simulations-page .simulations-page-textarea p {
+        width: auto;
+    }
+
+    #content-page.simulations-page hr {
+        max-width: 78.3rem;
+    }
+}

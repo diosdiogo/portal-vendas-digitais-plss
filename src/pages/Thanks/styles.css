@@ -1,0 +1,35 @@
+#page-thanks {
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column;
+}
+
+#thanks-page-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#thanks-page-content .slogan {
+    font: 700 4.8rem Roboto;
+    line-height: 2.5rem;
+    margin-top: 10.3rem;
+    margin-bottom: 4.8rem;
+}
+
+#thanks-page-content .thanks-page-text {
+    font: 400 2.0rem Roboto;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0px;
+    margin: 3.7rem auto 5.5rem;
+}
+
+#thanks-page-content .buttons-block a {
+    margin: 2.6rem auto;
+}
+
+@media (min-width: 700px) {
+}

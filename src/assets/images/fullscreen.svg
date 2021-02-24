@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="86" viewBox="0 0 86 86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3d84ce"/>
+      <stop offset="1" stop-color="#76a5d7"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a6c8eb"/>
+      <stop offset="1" stop-color="#b3cae2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6393c6"/>
+      <stop offset="1" stop-color="#82b1e2"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_77" data-name="Grupo 77" transform="translate(-172 -39)">
+    <circle id="Elipse_141" data-name="Elipse 141" class="cls-1" cx="43" cy="43" r="43" transform="translate(172 39)"/>
+    <circle id="Elipse_142" data-name="Elipse 142" class="cls-2" cx="32.5" cy="32.5" r="32.5" transform="translate(183 49)"/>
+    <circle id="Elipse_143" data-name="Elipse 143" class="cls-3" cx="31" cy="31" r="31" transform="translate(184 50)"/>
+    <g id="Grupo_76" data-name="Grupo 76" transform="translate(-1.491 -0.518)">
+      <path id="União_3" data-name="União 3" class="cls-4" d="M-128.354,1371.046v-15.085l-6.232,6.232-1.414-1.414,7.646-7.647v-.085h.085l.046-.046.046.046h1.544l.046-.046.046.046h.186v.186l7.547,7.547-1.415,1.414-6.132-6.132v14.985Z" transform="translate(1280.133 -801.031) rotate(45)"/>
+      <path id="União_4" data-name="União 4" class="cls-4" d="M7.646,18.046V2.961L1.414,9.193,0,7.779,7.646.131V.046h.085L7.778,0l.046.046H9.368L9.414,0,9.46.046h.186V.232l7.547,7.547L15.778,9.193,9.646,3.061V18.046Z" transform="translate(205.648 104.435) rotate(-135)"/>
+    </g>
+  </g>
+</svg>

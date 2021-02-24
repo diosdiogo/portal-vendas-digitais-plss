@@ -1,0 +1,48 @@
+#pdf-form-page-content .pdf-page-item {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#pdf-form-page-content .value-box {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    width: 23.1rem;
+    height: 4rem;
+    margin: 0 0.5rem 0.9rem;
+    background-color: var(--color-summary-inside);
+    padding-left: 5.5rem;
+}
+
+#pdf-form-page-content .value-box-message {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    width: 47.2rem;
+    height: auto;
+    margin: 0 0.5rem 0.9rem;
+    background-color: var(--color-summary-inside);
+    padding: 1.5rem;
+}
+
+#pdf-form-page-content .box-shadow {
+    max-width: 59.1rem;
+    opacity: 100%;
+    background-color: var(--color-summary-outside);
+    border-radius: 10px;
+    margin: 2.7rem auto;
+    padding-top: 3.34rem;
+    padding-bottom: 4.37rem;
+    text-align: center;
+}
+
+#pdf-form-page-content .box-shadow p {
+    width: 44rem;
+    margin: 0 auto;
+}

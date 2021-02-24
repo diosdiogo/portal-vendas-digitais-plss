@@ -1,0 +1,44 @@
+.enterprise-page .box-enterprise {
+    margin: 7rem 5rem 3rem;
+}
+
+.enterprise-page .buttons-block a {
+    margin: 0;
+}
+
+.enterprise-page .buttons-sm-block {
+    display: inline-block;
+    margin: 3rem auto 0 auto;
+
+}
+.buttons-sm-block-enterprise{
+    display: block !important;
+}
+.btn-bottom{
+    width: 150px !important;
+    height: 40px !important;
+    font-size: 12px !important;
+    margin-left: 50%;
+    border-radius: 4px;
+    background-color: var(--color-primary); 
+    color: var(--color-background);  
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.Card-enterprise{
+    max-width: 344px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+    margin-top:41px;
+}
+.slogan{
+    margin: 0 auto;
+    font-size: 18px !important;
+    max-width:294px;
+    text-align: left;
+}
+
+.btn-enterprise{
+    background-color: var(--color-primary) !important;
+    color: var(--color-button-text) !important;
+}

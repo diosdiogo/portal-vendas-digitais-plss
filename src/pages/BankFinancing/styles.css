@@ -1,0 +1,112 @@
+#content-page.simulations-page .select-block {
+    margin: 1.4rem auto 0rem;
+}
+.bank-financing-warning-text{
+    font: 700 1.0rem Roboto;
+}
+
+.firstCard{
+    top: 168px;
+    left: 40px;
+    width: 296px;
+    max-height: 336px;
+    padding: 15px;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border-left: 8px #F5F5F5 solid;
+    border-right: 8px #F5F5F5 solid;
+    z-index: 9998;
+}
+.CardBank-valor-entrada{
+    top: 168px;
+    left: 40px;
+    width: 296px;
+    height: 72px;
+    padding: 15px;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border-left: 8px #FEC200 solid;
+    border-right: 8px #FEC200 solid;
+}
+.CardBank-valor-desconto{
+    top: 168px;
+    left: 40px;
+    width: 296px;
+    height: 72px;
+    padding: 15px;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border-left: 8px #94CC09 solid;
+    border-right: 8px #94CC09 solid;
+}
+.simulations-page-text-prestes{
+    font-size: 14px;
+    font-weight:bold;
+    text-align:left !important;
+    margin-left: 10px;
+
+}
+
+.currency-text-prestes{
+    font: italic 20px Roboto;
+    text-align: left !important;
+    line-height: 3rem;
+    display: inline;
+}
+.currency-text-prestes p{
+    display: inline;
+    text-align: left !important;
+}
+.currency-text-prestes::before {
+    content: "R$";
+    letter-spacing: 0px;
+    display: inline;
+    text-align: left !important;
+    font: 20px Roboto, thin;
+    margin-left: -135px;
+}
+
+.select-block{
+    z-index: 9999;
+}
+.simulations-page-slider{
+    margin-top: 8px;
+}
+
+.simulations-page-textarea{
+    margin: 0 auto;
+    
+}
+.textarea-simulations-page{
+    width: 296px !important;
+    height: 168px !important;;
+    border: 1px solid #B7B7B7;
+    border-radius: 5px;
+}
+
+.slogan-bankFinancing {
+    max-width: 100% !important;
+    margin-bottom: 30px !important;
+}
+.slogan-bankFinancing p {
+    width: 280px !important;
+    /* height: 48px; */
+    font-size: 20px !important;
+    margin: 0 auto;
+}
+.select-bankFinancing{
+    width: 224px !important;
+}
+.MuiSlider-thumb {
+    border: 8px solid #FFFFFF !important;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.MuiSlider-rail {
+    background-color: #F5F5F5 !important;
+}

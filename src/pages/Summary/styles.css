@@ -1,0 +1,306 @@
+#content-page.summary-page .slogan p {
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    margin: 7.2rem auto 0;
+    max-width: 25rem;
+}
+
+#content-page.summary-page .grey-box-shadow {
+    max-width: 30.2rem;
+    opacity: 100%;
+    background-color: transparent;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+#content-page.summary-page .summary-page-item {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#content-page.summary-page .value-box {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    width: 13.6rem;
+    height: 4rem;
+    margin: 0 0rem 0.9rem;
+    background-color: var(--color-summary-inside);
+    padding: 1.5rem;
+    
+}
+#content-page.summary-page .value-box:first-child {
+    border-left: 8px #B7B7B7 solid;
+    align-items: flex-end;
+}
+
+#content-page.summary-page .value-box-message {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    width: 28rem;
+    height: auto;    
+    margin: 0 0.5rem 0.9rem;
+    background-color: var(--color-summary-inside);
+    padding: 1.5rem;
+}
+
+#content-page.summary-page .buttons-sm-block {
+    width: 100%;
+    
+    margin: 0rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-page.summary-page .buttons-sm-block-back a {
+    width: 15rem;
+    height: 4.1rem;
+
+    display: flex;
+    margin: 0rem auto 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-page.summary-page .buttons-sm-block a {
+    margin: 3rem auto;
+}
+
+#content-page.summary-page .btn-sm-bottom {
+    width: 15rem;
+    height: 4.1rem;
+    cursor: pointer;   
+
+    margin: 0 auto !important;
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+    opacity: 1;
+    text-decoration: none;
+    font: 700 1.6rem Roboto;
+    color: var(--color-primary);   
+
+    transition: background-color 0.2s; 
+}
+
+#content-page.summary-page .btn-sm-bottom:hover {    
+    background-color: var(--color-text-in-secondary-light);  
+}
+
+#content-page.summary-page .btn-sm-bottom:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#content-page.summary-page .btn-sm-bottom-back {
+    width: 12rem !important;
+    border: ;
+    opacity: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    text-decoration: none;
+    font: 700 1.6rem Roboto;
+    color: var(--color-text-in-secondary);  
+    margin-top: 2.5rem !important; 
+
+    transition: background-color 0.2s; 
+}
+
+#content-page.summary-page .btn-sm-bottom-back:hover {
+    background-color: var(--color-text-in-secondary-light);  
+}
+
+#content-page.summary-page .btn-sm-top {
+    width: 15rem;
+    height: 4.1rem;
+    cursor: pointer;   
+
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    opacity: 1;
+    text-decoration: none;
+    font: 700 1.6rem Roboto thin;
+    color: var(--color-button-text);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+
+    justify-self: end;       
+
+    transition: background-color 0.2s;
+}
+
+#content-page.summary-page .btn-sm-top:hover {
+    background-color: var(--color-primary-dark);    
+}
+
+#content-page.summary-page .btn-sm-top:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#content-page.summary-page .btn-sm-top:disabled { 
+    border: 2px solid var(--color-primary);   
+    color: var(--color-button-text);   
+    background-color: var(--color-primary);
+}
+
+.iconSvg{
+    align-items: flex-end;
+    justify-content: end;
+}
+.value-box-first{
+    text-align: left;
+    width: 290px;
+}
+
+/* The container */
+#content-page.summary-page .summary-form-check {
+    font: 400 1.3rem Roboto;
+    display: flex;
+    position: relative;
+    padding-left: 2.0rem;
+    margin: 2.8rem 2.5rem 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+#content-page.summary-page .summary-form-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+#content-page.summary-page .summary-form-check a {
+    text-decoration: underline;
+    margin-left: 0.4rem;
+}
+
+/* Create a custom checkbox */
+#content-page.summary-page .summary-form-check img {
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+}
+
+/* Create a custom checkbox */
+#content-page.summary-page .checkmark {
+    top: 0;
+    left: 0;
+    height: 1.6rem;
+    width: 1.6rem;
+    position: absolute;
+    background-color: var(--color-background);
+    border-radius: 0.3rem;
+    border: 1px solid var(--color-border-checkbox);
+}
+  
+/* When the checkbox is checked, add a blue background */
+#content-page.summary-page .summary-form-check input:checked ~ .checkmark {
+    background-color: var(--color-background);
+}
+  
+/* Create the checkmark/indicator (hidden when not checked) */
+#content-page.summary-page .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Show the checkmark when checked */
+#content-page.summary-page .summary-form-check input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+/* Style the checkmark/indicator */
+#content-page.summary-page .summary-form-check .checkmark:after {
+    left: 0.45rem;
+    top: 0.1rem;
+    width: 0.3rem;
+    height: 0.9rem;
+    border: solid var(--color-primary);
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#content-page.summary-page p {
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 27rem;
+}
+
+@media (min-width: 700px) {    
+    #content-page.summary-page .slogan p {
+        max-width: 35rem;
+    }
+
+    #content-page.summary-page .grey-box-shadow {
+        max-width: 59.1rem;
+        margin: 2.7rem auto;
+    }
+
+    #content-page.summary-page .value-box {
+        width: 23.1rem;
+        padding-left: 5.5rem;
+    }
+
+    #content-page.summary-page .value-box-message {
+        width: 47.2rem;
+    }
+
+    #content-page.summary-page .buttons-sm-block {
+        width: 100%;
+        display: grid; 
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "btn-bottom btn-top"
+        ;       
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 600px;      
+    }
+
+    #content-page.summary-page .btn-sm-bottom {
+        grid-area: btn-bottom;  
+    }
+
+    #content-page.summary-page .buttons-sm-block-back {
+        display: block;
+        margin: 0 auto;  
+    }
+
+    #content-page.summary-page .btn-sm-top {
+        grid-area: btn-top;
+        justify-self: end;
+    }
+
+    #content-page .summary-form-page-text-sm {
+        width: 56.2rem;
+    }
+
+    #content-page.summary-page p {
+        max-width: 44rem;
+        margin: 0 auto;
+    }
+
+    /* The container */
+    #content-page.summary-page .summary-form-check {
+        margin: 4.1rem 29% 0;
+    }
+}

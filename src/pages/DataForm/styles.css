@@ -1,0 +1,183 @@
+#content-page.data-form-page .slogan {
+    display: block;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    margin: 9.1rem auto 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-page.data-form-page .slogan p + p {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+#content-page.data-form-page .data-form-page-text {
+    font: 400 2.0rem Roboto;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 1.75rem;
+    padding-bottom: 2.6rem;
+}
+
+#content-page.data-form-page .data-form-page-text-sm {
+    font: 400 1.3rem Roboto;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0px;
+    margin: 2.4rem auto 0;
+    width: 23.4rem;
+}
+
+#content-page.data-form-page .box-shadow {
+    max-width: 30rem;
+    opacity: 100%;
+    background-color: var(--color-header);
+    border-radius: 10px;
+    margin: 2.17rem auto 0rem;
+}
+
+#content-page.data-form-page .box-shadow hr {
+    width: 100%;
+    max-width: 28.1rem;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#content-page.data-form-page .buttons-sm-block {  
+    width: 100%;
+    display: grid; 
+}
+
+#content-page.data-form-page .buttons-sm-block button {
+    width: 15rem;
+    height: 4.1rem;
+    cursor: pointer;   
+}
+
+#content-page.data-form-page .buttons-sm-block button:focus { 
+    outline: -webkit-focus-ring-color auto 0px;  
+}
+
+#content-page.data-form-page .btn-sm-bottom {
+    margin: 0 auto !important;
+    grid-area: btn-bottom; 
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    opacity: 1;
+    text-decoration: none;
+    font: 700 1.6rem Roboto;
+    color: var(--color-primary);   
+    background-color: var(--color-background);
+
+    transition: background-color 0.2s; 
+}
+
+#content-page.data-form-page .btn-sm-bottom:hover {    
+    background-color: var(--color-text-in-secondary-light);  
+}
+
+#content-page.data-form-page .btn-sm-top {
+    background: var(--color-primary) 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    text-decoration: none;
+    font: 700 1.6rem Roboto;
+    color: var(--color-text-in-primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+
+    grid-area: btn-top;
+    justify-self: end;       
+
+    transition: background-color 0.2s;
+}
+
+#content-page.data-form-page .btn-sm-top:hover {
+    background-color: var(--color-primary-dark); 
+}
+
+#content-page.data-form-page .btn-sm-top:disabled { 
+    border: 2px solid var(--color-primary);   
+    color: var(--color-primary);   
+    background-color: var(--color-background);
+}
+
+#content-page.data-form-page .MuiFormControl-root {
+    display: flex;
+}
+
+#content-page.data-form-page .MuiFormGroup-row {
+    display: inline;
+}
+
+#content-page.data-form-page .MuiSvgIcon-root {
+    font-size: 3.0rem;
+}
+
+#content-page.data-form-page .MuiFormControlLabel-label {
+    font: 400 1.6rem Roboto;
+}
+
+#content-page.data-form-page .whatsapp {
+    margin-right: 0rem;
+}
+
+#content-page.data-form-page .phone {
+    margin-left: 1.5rem;
+}
+
+#content-page.data-form-page .MuiRadio-colorPrimary {
+    color: var(--color-primary);
+}
+
+/* The container */
+#content-page.data-form-page .data-form-check {
+    font: 400 1.3rem Roboto;
+    display: flex;
+    position: relative;
+    padding-left: 2.0rem;
+    margin: 0 2.5rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.slogan-dataForm{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media (min-width: 700px) {
+    #content-page.data-form-page .btn-sm-bottom {
+        grid-area: btn-bottom;  
+    }
+
+    #content-page.data-form-page .btn-sm-top {
+        grid-area: btn-top;
+        justify-self: end;
+    }
+
+    #content-page.data-form-page .slogan {
+        display: flex;
+        line-height: 3.0rem;
+        margin: 9.6rem auto 4.5rem;
+    }
+    
+    #content-page.data-form-page .slogan p + p {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    #content-page.data-form-page .data-form-page-text-sm {
+        width: 56.2rem;
+    }
+
+    #content-page.data-form-page .input-block {
+        max-width: 67.0rem;
+        margin: 0 auto;
+    }
+}

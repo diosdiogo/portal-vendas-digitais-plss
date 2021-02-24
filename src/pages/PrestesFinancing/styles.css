@@ -1,0 +1,50 @@
+#content-page.simulations-page .simulations-page-text-sm {
+    font: 400 1.3rem Roboto;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0px;
+    width: 23.4rem;
+    margin: 0 auto;
+}
+
+#content-page.simulations-page .installmentsSlider .MuiSlider-markLabel {
+    left: 50% !important;
+}
+
+#content-page.simulations-page .simulations-page-box-title strong {
+    font: 700 3.0rem Roboto;
+}
+
+@media (min-width: 700px) {
+    #content-page.simulations-page .simulations-page-text-sm {
+        width: 78.3rem;
+    }
+}
+.bank-financing-warning-text{
+    font: 700 1.0rem Roboto;
+}
+.simulations-page-text-sm-prestes{
+    font-size: 14px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    width: 217px;
+}
+
+.simulations-page-slider{
+    margin-top: 8px;
+}
+
+.entrySlider{
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.MuiSlider-track {
+    height: 8px !important;
+}
+.MuiSlider-thumb {
+    margin-top: -8px !important;
+}
+.MuiSlider-rail {
+    height: 8px !important;
+}

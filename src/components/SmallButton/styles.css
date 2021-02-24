@@ -1,0 +1,58 @@
+.buttons-sm-block a {
+    width: 15rem;
+    height: 4.1rem;
+    border: 1px var(--color-button-box-base) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-sm-top {
+    width: 12rem !important;
+    background-color: var(--color-primary);
+   
+    opacity: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    text-decoration: none;
+    font: 700 1.6rem Roboto;
+    color: var(--color-background);
+
+    grid-area: btn-top;
+    justify-self: end;   
+
+    transition: background-color 0.2s;
+}
+
+/* .btn-sm-top:hover {
+    background-color: var(--color-text-in-secondary-light); 
+} */
+
+.btn-sm-bottom {
+    width: 12rem !important;
+    background-color: var(--color-background);
+    border-color: var(--color-button-box-base) !important;
+   
+    opacity: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    text-decoration: none;
+    font: 700 1.6rem Roboto;
+    color: var(--color-button-box-base);  
+    margin: 0 auto !important;
+    grid-area: btn-bottom; 
+
+    transition: background-color 0.2s; 
+}
+
+/* .btn-sm-bottom:hover {
+    background-color: var(--color-text-in-secondary-light);  
+} */
+
+@media (min-width: 700px) {
+    .btn-sm-bottom {
+        margin: auto !important;        
+    }
+}

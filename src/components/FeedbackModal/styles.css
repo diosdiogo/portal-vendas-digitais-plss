@@ -1,0 +1,220 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+#feedback-page .modal-main {
+    position:fixed;
+    width: 28.6rem;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--color-background);
+}
+
+#feedback-page-content header {
+    background-color: var(--color-feedback);
+    height: 51px;
+    width: 100%;
+}
+
+#feedback-page-content header .header-text {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font: 700 15px Roboto;
+    color: var(--color-text-title);
+}
+
+#feedback-page-content header .btn-close {
+    position: absolute;
+    top: 1.7rem;
+    right: 2rem;
+}
+
+#feedback-page-content header .btn-close a {
+    border: 0;
+    cursor: pointer;
+    
+    color: var(--color-background);
+}
+
+#feedback-page-content main .feedback-evaluation-text {
+    width: 100%;
+    margin: 1.7rem auto 0;
+    padding: 0 1.75rem;
+}
+
+#feedback-page-content main .feedback-evaluation-text p {
+    font: 700 1.6rem Roboto;
+    line-height: 2rem;
+    letter-spacing: 0px;
+    color: var(--color-text-base);
+}
+#feedback-page-content main .feedback-text{
+    font: 400 11px Roboto;
+    width: 229px;
+    text-align: left;
+    margin: 0 auto;
+    color: var(--color-text-base);
+}
+
+#feedback-page-content main .evaluation-value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1.75rem;
+    margin: 0 auto;
+}
+
+#feedback-page-content button {
+    cursor: pointer;
+}
+
+#feedback-page-content main .evaluation-value button {
+   background-color: transparent;
+   border: none;
+   width: 40px;
+}
+
+#feedback-page-content main .evaluation-value button.active {
+   
+}
+
+#feedback-page-content main .feedback-message-text {
+    padding: 1rem 1.75rem 0 1.75rem;
+}
+
+#feedback-page-content main .feedback-message-text p {
+    width: 100%;
+    font: 400 1.2rem Roboto;
+    letter-spacing: 0px;
+    color: var(--color-text-base);
+    text-align: start;
+}
+
+#feedback-page-content main .feedback-message-value {
+    padding: 1rem 1.75rem 1rem 1.75rem;
+}
+
+#feedback-page-content main .feedback-message-value textarea {
+    resize: none;
+    width: 100%;
+    padding: 1rem;
+    font: 400 1.2rem Roboto;
+    border: 1px solid var(--color-border-checkbox);
+    border-radius: 7px;
+}
+
+#feedback-page-content main .feedback-message-value textarea::placeholder {
+    opacity: 60%;    
+}
+
+#feedback-page-content main .feedback-message-value textarea:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#feedback-page-content .send-button {
+    font: 400 1.16rem Roboto;
+    width: 128px;
+    height: 3.3rem;
+
+    margin: 0 auto 2.3rem;
+    border-radius: 4px;
+    border: 0;
+    opacity: 1;
+
+    background: var(--color-primary) 0% 0% no-repeat padding-box;
+    color: var(--color-background);
+}
+
+#feedback-page-content button {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#feedback-page-content .thanks .thanks-text {
+    width: 100%;
+    padding: 4rem 1.75rem 4rem 1.75rem;
+} 
+
+#feedback-page-content .thanks .thanks-text p {
+    font: 700 3rem Roboto;
+} 
+
+#feedback-page-content .thanks .thanks-text-sm {
+    width: 100%;
+    padding: 4rem 1.75rem 4rem 1.75rem;
+} 
+
+#feedback-page-content .thanks .thanks-text-sm p {
+    font: 400 2.4rem Roboto;
+} 
+  
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+@media (min-width: 700px) {
+    #feedback-page .modal-main {
+        width: 40.8rem;
+    }
+
+    #feedback-page-content main .feedback-evaluation-text {
+        padding: 0 4.7rem;
+    }
+
+    #feedback-page-content main .feedback-evaluation-text p {
+        font-size: 1.8rem;
+        text-align: start;
+    }
+
+    #feedback-page-content main .evaluation-value {
+        padding: 1rem 4.7rem;
+    }
+
+    #feedback-page-content main .evaluation-value button {
+        height: 5.4rem;
+        width: 5.4rem;
+    }
+
+    #feedback-page-content main .feedback-message-text {
+        padding: 1rem 4.7rem 0 4.7rem;
+    }
+    
+    #feedback-page-content main .feedback-message-text p {
+        font-size: 1.6rem;
+    }
+    
+    #feedback-page-content main .feedback-message-value {
+        padding: 1rem 4.7rem 1rem 4.7rem;
+    }
+    
+    #feedback-page-content main .feedback-message-value textarea {
+        font-size: 1.6rem;
+    }
+
+    #feedback-page-content .send-button {
+        font-size: 1.6rem;
+        width: 23.3rem;
+        height: 4.2rem;
+    }
+
+    #feedback-page-content .thanks .thanks-text {
+        padding: 4rem 4.7rem 4rem 4.7rem;
+    } 
+    
+    #feedback-page-content .thanks .thanks-text-sm {
+        padding: 4rem 4.7rem 4rem 4.7rem;
+    } 
+}

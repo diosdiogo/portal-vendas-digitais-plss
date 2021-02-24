@@ -1,0 +1,24 @@
+<svg id="Grupo_83" data-name="Grupo 83" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #373e43;
+        opacity: 0.787;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <circle id="Elipse_147" data-name="Elipse 147" class="cls-1" cx="21" cy="21" r="21"/>
+  <g id="Grupo_80" data-name="Grupo 80" transform="translate(18.649 12.6)">
+    <g id="Grupo_79" data-name="Grupo 79">
+      <line id="Linha_49" data-name="Linha 49" class="cls-2" x1="4.451" y2="8.49"/>
+    </g>
+    <line id="Linha_50" data-name="Linha 50" class="cls-2" x2="4.451" y2="8.49" transform="translate(0 8.49)"/>
+  </g>
+</svg>
